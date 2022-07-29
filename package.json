@@ -2,9 +2,10 @@
   "name": "cvm-lotes-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "concurrently \"tsc -w\" \"nodemon ./build/index.js\""
+    "dev": "concurrently \"tsc -w\" \"nodemon ./build/server.js\"",
+    "start": "node ./build/server.js"
   },
   "keywords": [],
   "author": "",
