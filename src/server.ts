@@ -1,4 +1,4 @@
-import express from 'express'
+import express, {Request, Response} from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import Lotes from "./routes/Lotes";
@@ -25,7 +25,11 @@ class Server {
     }
 
     routes(): void {
-        this.app.use("/api", Lotes)
+        //this.app.use("/api", Lotes)
+
+        this.app.get('/', (req: Request, res: Response) => {
+            res.send('hello world')
+        })
     }
 
     start(): void {

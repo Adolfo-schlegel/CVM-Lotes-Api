@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
-const Lotes_1 = __importDefault(require("./routes/Lotes"));
 /* import express from "express";
 import cors from "cors";
 import Lotes from "./routes/Lotes";
@@ -23,7 +22,10 @@ class Server {
         this.app.use((0, cors_1.default)());
     }
     routes() {
-        this.app.use("/api", Lotes_1.default);
+        //this.app.use("/api", Lotes)
+        this.app.get('/', (req, res) => {
+            res.send('hello world');
+        });
     }
     start() {
         this.app.listen(process.env.PORT || this.app.get('port'), () => {
