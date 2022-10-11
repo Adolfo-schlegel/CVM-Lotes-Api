@@ -1,0 +1,20 @@
+C:\Users\adolf\OneDrive\Escritorio\Trabajo\CVM-Lotes-Api\Build
+server on port  \\.\pipe\0e289ea1-00df-4e3b-afa6-4732f90a32c2
+3788
+3788
+3788
+3788
+8386
+punto
+{ coords: { lat: -33.82511553048186, lng: -62.73599859044192 } }
+poligono
+{
+  coords: [
+    { lat: -32.2863294349709, lng: -64.3068235186379 },
+    { lat: -32.28855176379576, lng: -64.29455492736247 },
+    { lat: -32.28084695244041, lng: -64.29463746200382 },
+    { lat: -32.27851818346101, lng: -64.30690965216723 },
+    { lat: -32.2863294349709, lng: -64.3068235186379 }
+  ],
+  name: 'Luka-Trigo'
+}

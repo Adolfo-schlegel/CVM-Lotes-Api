@@ -22,14 +22,13 @@ class Server {
     config(): void {
         this.app.set('port', process.env.PORT || 3000);
         this.app.use(cors());
+        this.app.use(express.json());
+        this.app.use(express.urlencoded({extended: false}));        
+
     }
 
     routes(): void {
-        //this.app.use("/api", Lotes)
-
-        this.app.get('/', (req: Request, res: Response) => {
-            res.send('hello world')
-        })
+        this.app.use("/api", Lotes)
     }
 
     start(): void {

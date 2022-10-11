@@ -1,0 +1,6 @@
+C:\Users\adolf\OneDrive\Escritorio\Trabajo\CVM-Lotes-Api\Build
+server on port  \\.\pipe\922ddd60-b22e-4354-8a96-6a2d53774c03
+3788
+3788
+3788
+3788

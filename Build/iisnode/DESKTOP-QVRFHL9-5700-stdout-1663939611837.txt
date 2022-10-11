@@ -1,0 +1,2 @@
+C:\Users\adolf\OneDrive\Escritorio\Trabajo\CVM-Lotes-Api\Build
+server on port  \\.\pipe\171d84c6-23ee-4719-acaa-05112f697a8f
